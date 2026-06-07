@@ -28,3 +28,21 @@ git remote -v
 
 git remote remove <nome do remote>
 -> removemos um remote do git
+
+git push <remote> <branch>
+-> Envia os commits do repositório local para o remote. Informamos ao comando o remote usado e a branch que será enviada.
+-> Podemos usar o parâmetro -u pra que o git crie um vinculo entre a branch local e a remote de forma que nas próxima execuções de git push\pull poderemos fazer apenas git push e ele vai enviar no mesmo remote com a mesma branch da ultima execução
+
+git pull <remote> <branch>
+-> Baixa os commits realizados no repositório remoto
+
+
+COMANDOS DE BRANCH
+
+git branch
+-> exibe as branchs e mostra em qual vc está no momento
+
+git checkout <nome_da_branch>
+-> muda para outra branch
+-> podemos adicionar o parâmetro -b para criar uma branch e ja entrarmos nela
+
