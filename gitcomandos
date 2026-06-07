@@ -1,0 +1,18 @@
+git init
+-> inicializa um repositório git
+
+git clone <url>
+-> cria um clone de um repositório
+
+git status
+-> permite verificar os arquivos que foram modificados
+
+git add <nome_arquivo> ou . (seleciona tudo)
+-> prepara modificações no stage para o commit
+
+git commit -m "mensagem"
+-> comita as modificações realizadas e adiciona uma mensagem
+
+git log 
+-> exibe o histório de modificações
+-> pode passar o parâmetro --online para ver de forma resumida
