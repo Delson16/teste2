@@ -48,3 +48,10 @@ git checkout <nome_da_branch>
 
 git merge <nome_da_branch>
 -> Realiza o merge da branch atual com a uma informada. Para adicionar coisas a master, por exemplo. devemos estar na master e usar o comando informando a branch da qual vamos puxar as informações para a branch atual
+
+Ao tentar realizar um merge e dar conflito (duas pessoas alteraram a mesma linha) o vs code vai deixar o arquivo aberto com as linhas dos dois lados informando quais informações vem da branch atual (geralmente master) e quais vem da outra branch.
+<<<<<<<<<<< Isso veio da master
+=========== Linha separando as informações
+>>>>>>>>>>> Isso veio da outra branch
+
+Ao resolver os conflitos o proximo passo é realizar um commit e pronto. O novo commit vai conter as informações de ambas as branches
