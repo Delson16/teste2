@@ -13,3 +13,7 @@ pessoa = {
 
 console.log(pessoa.falar());
 
+function soma(numero, numero2){
+    return numero + numero2
+}
+
