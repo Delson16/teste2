@@ -47,4 +47,4 @@ git checkout <nome_da_branch>
 -> podemos adicionar o parâmetro -b para criar uma branch e ja entrarmos nela
 
 git merge <nome_da_branch>
--> Realiza o merge da branch atual com a uma informada
+-> Realiza o merge da branch atual com a uma informada. Para adicionar coisas a master, por exemplo. devemos estar na master e usar o comando informando a branch da qual vamos puxar as informações para a branch atual
