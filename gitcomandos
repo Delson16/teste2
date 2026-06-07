@@ -46,3 +46,5 @@ git checkout <nome_da_branch>
 -> muda para outra branch
 -> podemos adicionar o parâmetro -b para criar uma branch e ja entrarmos nela
 
+git merge <nome_da_branch>
+-> Realiza o merge da branch atual com a uma informada
