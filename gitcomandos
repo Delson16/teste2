@@ -16,3 +16,15 @@ git commit -m "mensagem"
 git log 
 -> exibe o histório de modificações
 -> pode passar o parâmetro --online para ver de forma resumida
+
+Comandos para uso remoto
+
+git remote add origin <url>
+-> criamos um apelido para uma url e deixamos salvo no repositório. 
+-> Neste caso origin referencia a url informada que deverá ser o link do repositório remoto
+
+git remote -v
+-> comando que verifica os remotes existentes no repositório
+
+git remote remove <nome do remote>
+-> removemos um remote do git
